@@ -37,12 +37,14 @@ nav ul  {
   align-items: flex-start;
 }
 .foto-1 {
-  padding: 20px;
-  /* float: right; */
+  /* padding: 20px; */
+   float: right; 
+  border-bottom: 40px;
   display: flex;
   flex-direction: row;
   width: 150px;
   height: 150px;
+  border: 1px solid black;
   /* align-items: flex-end; */
   
   
@@ -50,6 +52,16 @@ nav ul  {
 a {text-decoration: none;}
 a:hover {
   color: green;
+}
+
+.parts {
+  height: 200px;
+  display: flex;
+  gap: 20px;
+}
+.part-1 {
+  display: flex;
+  background-color: #e9c46a;
 }
 
 .container {
