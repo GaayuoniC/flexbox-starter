@@ -13,12 +13,12 @@ main {
 }
 
 /* hello peolle */
-/* 
+
   header {
-  display: flex;
-  gap: 30px;
-  flex-direction: row;
-}   */
+    padding: 20px;
+    color:brown;
+
+}   
 
 nav ul  {
   display: flex;
@@ -29,7 +29,10 @@ nav ul  {
   list-style-type: none;
   color:blue;
   font-size: 1.1em;
+  justify-content: start;
+  align-items: flex-start;
 }
+
 
 .container {
   height: 400px;
