@@ -14,6 +14,16 @@ main {
 
 /* hello peolle */
 
+header {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+}
+nav li {
+  display: flex;
+  flex-direction: row;
+}
+
 .container {
   height: 400px;
   display: flex;
