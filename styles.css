@@ -60,9 +60,24 @@ a:hover {
   gap: 20px;
 }
 .part-1 {
+  flex-grow: 1;
   display: flex;
   background-color: #e9c46a;
+  flex-wrap: wrap;
 }
+.part-2 {
+  flex-grow: 1;
+  display: flex;
+  background-color:rgb(33, 206, 64);
+}
+.part-3 {
+  display: flex;
+  flex-grow: 1;
+}
+.part-4 {
+  display: flex;flex-grow: 2;
+}
+
 
 .container {
   height: 400px;
