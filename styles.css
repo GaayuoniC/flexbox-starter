@@ -24,6 +24,7 @@ main {
   background-color: aliceblue;
   border: 1px solid black;
   align-items: center;
+  align-content: center;
 }
 
 .box {
@@ -35,6 +36,9 @@ main {
 }
 
 .box-1 {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
   background-color: #264653;
 }
 .box-2 {
