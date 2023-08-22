@@ -12,9 +12,18 @@ main {
   padding: 20px;
 }
 
+/* hello peolle */
+
 .container {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 12px;
+  flex-wrap: wrap;
   background-color: aliceblue;
   border: 1px solid black;
+  align-items: center;
 }
 
 .box {
@@ -29,9 +38,12 @@ main {
   background-color: #264653;
 }
 .box-2 {
+  flex-grow: 1;
   background-color: #2a9d8f;
 }
 .box-3 {
+  flex-grow: 1;
+  align-self: center;
   background-color: #e9c46a;
 }
 .box-4 {
