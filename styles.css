@@ -13,15 +13,22 @@ main {
 }
 
 /* hello peolle */
-
-header {
+/* 
+  header {
   display: flex;
   gap: 30px;
   flex-direction: row;
-}
-nav li {
+}   */
+
+nav ul  {
   display: flex;
   flex-direction: row;
+  text-decoration: none;
+  gap: 30px;
+  padding: 20px;
+  list-style-type: none;
+  color:blue;
+  font-size: 1.1em;
 }
 
 .container {
